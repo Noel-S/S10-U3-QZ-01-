@@ -1,16 +1,12 @@
-# gallery
+# S10-U3-QZ-01  Gallery Images  in Flutter
 
-A new Flutter project.
+Simple image gallery reading device storage
 
-## Getting Started
+## App Running
 
-This project is a starting point for a Flutter application.
+<img width="551" alt="image" src="https://github.com/Noel-S/S10-U3-QZ-01-/assets/30371531/aa2205f8-5201-4888-a975-1ccdf73a3622">
 
-A few resources to get you started if this is your first Flutter project:
+<img width="551" alt="image" src="https://github.com/Noel-S/S10-U3-QZ-01-/assets/30371531/7ebe25ef-350c-485d-bcb4-60783a054f41">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img width="366" alt="image" src="https://github.com/Noel-S/S10-U3-QZ-01-/assets/30371531/ed7724c8-784b-40c2-8c00-60fa89821610">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
