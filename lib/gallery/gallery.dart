@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:gallery/gallery/image_detail.dart';
+import 'package:native_shutter_sound/native_shutter_sound.dart';
 import 'package:photo_manager/photo_manager.dart';
 
 class Gallery extends StatefulWidget {
@@ -89,6 +90,7 @@ class _GalleryState extends State<Gallery> {
                   clipBehavior: Clip.hardEdge,
                   child: GestureDetector(
                     onTap: () {
+                      NativeShutterSound.play();
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => ImageDetail(file: snapshot.data!)),
