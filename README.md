@@ -3,11 +3,11 @@
 Simple image gallery reading device storage
 
 ## Quentions
-- What is the advantage of using a Grid component in an image gallery compared to a linear layout, especially when dealing with displaying a large number of images?
+- **What is the advantage of using a Grid component in an image gallery compared to a linear layout, especially when dealing with displaying a large number of images?**
   With a gridview We can see the content of the image better than in a list allowing us to decide quick wich element are we searching for.
-- What are some of the key properties that can be configured in a Grid component to customize the appearance and layout of an image gallery?
+- **What are some of the key properties that can be configured in a Grid component to customize the appearance and layout of an image gallery?**
   **gridDelegate**:  allows us to set to the grid the number of columns with **crossAxisCount** , space between elements, with **crossAxisCount** and **mainAxisSpacing**, and theb **padding** to add space to all container
-- How can you implement the functionality to click on an image in the Grid gallery to view it in full size, and how could this interaction be achieved in a Flutter application?
+- **How can you implement the functionality to click on an image in the Grid gallery to view it in full size, and how could this interaction be achieved in a Flutter application?**
   Warapping the image component in a button, Gesture detector or any other component that has oin its properties a detector and a callback function with an action. and navigate to a screen component where only will be the image alone.
 
 ## App Running
